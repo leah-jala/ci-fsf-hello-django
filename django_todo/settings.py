@@ -31,7 +31,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['ci-ljl-todo-app.herokuapp.com']
 
-
+DISABLE_COLLECTSTATIC = True
 # Application definition
 
 INSTALLED_APPS = [
